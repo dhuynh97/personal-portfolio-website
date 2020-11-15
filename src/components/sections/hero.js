@@ -24,7 +24,7 @@ const StyledHeroSection = styled.section`
 
   h3 {
     margin-top: 10px;
-    color: var(--slate);
+    color: var(--main-blue);
     line-height: 0.9;
   }
 
@@ -47,7 +47,7 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>e</h1>;
+  const one = <h1></h1>;
   const two = <h2 className="big-heading">Daniel Huynh</h2>;
   const three = <h3 className="big-heading">a software engineer from San Jose, CA</h3>;
   const four = <p>placehello1</p>;

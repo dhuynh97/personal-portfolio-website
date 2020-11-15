@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
   ${Fonts};
 
   :root {
+    --main-blue: #054e5b;
     --dark-navy: #ffffff;
     --navy: #ffffff;
     --light-navy: #172a45;

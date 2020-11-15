@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/dhuynh97',
+      url: 'https://www.linkedin.com/in/danielhuynh97',
     },
     {
       name: 'Codepen',
@@ -16,11 +16,11 @@ module.exports = {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/dhuynh97',
+      url: 'https://www.instagram.com/danisdabombdotcom',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/dhuynh97',
+      url: 'https://twitter.com/danierhuynh',
     },
   ],
 

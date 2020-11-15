@@ -47,11 +47,12 @@ const StyledText = styled.div`
 `;
 const StyledPic = styled.div`
   position: relative;
-  max-width: 300px;
+  max-width: 1000px;
+  width: 150%;
 
   @media (max-width: 768px) {
-    margin: 50px auto 0;
-    width: 70%;
+    margin: 0px auto 0;
+    width: 100%;
   }
 
   .wrapper {

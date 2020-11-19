@@ -73,9 +73,9 @@ module.exports = {
             // https://www.gatsbyjs.org/packages/gatsby-remark-images
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 700,
+              maxWidth: 1000,
               linkImagesToOriginal: true,
-              quality: 90,
+              quality: 100,
               tracedSVG: { color: config.colors.green },
             },
           },
@@ -151,7 +151,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'UA-171136299-1',
       },
     },
   ],

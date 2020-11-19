@@ -4,10 +4,10 @@ module.exports = {
   siteMetadata: {
     title: 'Daniel Huynh',
     description:
-      'Daniel Huynh is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+      'Daniel Huynh is a software engineer from San Jose, California and graduated from UC San Diego.',
     siteUrl: 'https://danielhuynh.co', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@dhuynh97',
+    twitterUsername: '@danierhuynh',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'DanielHuynh',
+        name: 'Daniel Huynh',
         short_name: 'DanielHuynh',
         start_url: '/',
         background_color: config.colors.darkNavy,

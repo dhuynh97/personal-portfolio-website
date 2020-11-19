@@ -147,14 +147,12 @@ const About = () => {
             </p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I enjoy blank
             </p>
 
             <p>
-              Shortly after graduating from <a href="https://www.ucsd.edu">UC San Diego</a>
-              place <a href="https://www.upstatement.com">PLace</a>
+              Shortly after graduating from <a href="https://www.ucsd.edu"> UC San Diego </a> I started
+               
             </p>
 
             <p>tootoo</p>

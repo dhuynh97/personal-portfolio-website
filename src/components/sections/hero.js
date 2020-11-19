@@ -11,11 +11,10 @@ const StyledHeroSection = styled.section`
   min-height: 100vh;
 
   h1 {
-    margin: 0 0 30px 4px;
+    margin: 0 0 30px 0px;
     color: var(--green);
     font-family: var(--font-mono);
-    font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
-    font-weight: 400;
+    font-weight: 500;
 
     @media (max-width: 480px) {
       margin: 0 0 20px 2px;
@@ -48,13 +47,11 @@ const Hero = () => {
   }, []);
 
   const one = <h1></h1>;
-  const two = <h2 className="big-heading">Daniel Huynh</h2>;
-  const three = <h3 className="big-heading">a software engineer from San Jose, CA</h3>;
-  const four = <p>placehello1</p>;
+  const two = <h2 className="big-heading"> Hey there, I'm Daniel Huynh.</h2>;
+  const three = <h3 className="medium-heading"> A Software Engineer from San Jose, CA </h3>;
+  const four = <p></p>;
   const five = (
-    <a href={`mailto:${email}`} className="email-link">
-      Get In Touch
-    </a>
+    <p></p>
   );
 
   const items = [one, two, three, four, five];

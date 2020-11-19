@@ -13,8 +13,8 @@ const StyledLinkWrapper = styled.div`
   &:after {
     content: '';
     display: block;
-    width: 1px;
-    height: 90px;
+    width: 0px;
+    height: 0px;
     margin: 0 auto;
     background-color: var(--light-slate);
   }
@@ -25,7 +25,7 @@ const StyledLinkWrapper = styled.div`
     font-family: var(--font-mono);
     font-size: var(--fz-xxs);
     letter-spacing: 0.1em;
-    writing-mode: vertical-rl;
+
 
     &:hover,
     &:focus {
@@ -37,7 +37,6 @@ const StyledLinkWrapper = styled.div`
 const Email = ({ isHome }) => (
   <Side isHome={isHome} orientation="right">
     <StyledLinkWrapper>
-      <a href={`mailto:${email}`}>{email}</a>
     </StyledLinkWrapper>
   </Side>
 );

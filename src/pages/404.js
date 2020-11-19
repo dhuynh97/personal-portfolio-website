@@ -36,15 +36,15 @@ const NotFoundPage = ({ location }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title="Page Not Found" />
+      <Helmet title="404 Page Not Found" />
 
       <TransitionGroup component={null}>
         {isMounted && (
           <CSSTransition timeout={500} classNames="fadeup">
             <StyledMainContainer className="fillHeight">
-              <StyledTitle>404</StyledTitle>
-              <StyledSubtitle>Page Not Found</StyledSubtitle>
-              <StyledHomeButton to="/">Go Home</StyledHomeButton>
+              <StyledTitle>ERRRRRROR!</StyledTitle>
+              <StyledSubtitle>Why are you trying to access something that's not here? lol :3</StyledSubtitle>
+              <StyledHomeButton to="/">click here to refresh back to home page</StyledHomeButton>
             </StyledMainContainer>
           </CSSTransition>
         )}

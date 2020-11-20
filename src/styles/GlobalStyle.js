@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
 
   :root {
     --main-blue: #054e5b;
+    --main-black: #1d1d1f
     --light-grey: #86868b;
     --dark-navy: #ffffff;
     --navy: #ffffff;
@@ -17,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
     --slate: #8892b0;
     --light-slate: #a8b2d1;
     --lightest-slate: #ccd6f6;
-    --white: #e6f1ff;
+    --white: #fbfbfd;
     --green: #64ffda;
     --green-tint: rgba(100, 255, 218, 0.1);
 
@@ -358,7 +359,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: var(--green);
+    color: var(--white);
   }
 
   .overline {

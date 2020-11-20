@@ -21,6 +21,10 @@ const StyledHeroSection = styled.section`
     }
   }
 
+  h2 {
+    color: var(--main-black);
+  }
+
   h3 {
     margin-top: 10px;
     color: var(--main-blue);
@@ -34,6 +38,7 @@ const StyledHeroSection = styled.section`
 
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
+      background: --main-blue;
     margin-top: 50px;
   }
 `;

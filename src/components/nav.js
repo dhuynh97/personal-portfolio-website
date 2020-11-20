@@ -17,7 +17,7 @@ const StyledHeader = styled.header`
   padding: 0px 50px;
   width: 100%;
   height: var(--nav-height);
-  background-color: var(--navy);
+  background-color: var(--white);
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
@@ -55,7 +55,7 @@ const StyledNav = styled.nav`
   ${({ theme }) => theme.mixins.flexBetween};
   position: relative;
   width: 100%;
-  color: var(--lightest-slate);
+  color: var(--main-black);
   font-family: var(--font-mono);
   counter-reset: item 0;
   z-index: 12;
@@ -64,7 +64,7 @@ const StyledNav = styled.nav`
     ${({ theme }) => theme.mixins.flexCenter};
 
     a {
-      color: var(--green);
+      color: var(--main-black);
       width: 42px;
       height: 42px;
 

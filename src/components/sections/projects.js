@@ -100,7 +100,7 @@ const StyledProject = styled.div`
   }
 
   .project-description {
-    color: var(--light-slate);
+    color: var(--main-black);
     font-size: 17px;
 
     a {

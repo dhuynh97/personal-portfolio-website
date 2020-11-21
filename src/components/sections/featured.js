@@ -94,7 +94,7 @@ const StyledProject = styled.div`
   }
 
   .project-title {
-    color: var(--lightest-slate);
+    color: var(--main-black);
     font-size: clamp(24px, 5vw, 28px);
 
     @media (min-width: 768px) {
@@ -112,8 +112,9 @@ const StyledProject = styled.div`
     z-index: 2;
     padding: 25px;
     border-radius: var(--border-radius);
-    background-color: var(--light-navy);
-    color: var(--light-slate);
+    background-color: var(--light-grey);
+    opacity: 0.90;
+    color: var(--main-black);
     font-size: var(--fz-lg);
 
     @media (max-width: 768px) {
@@ -142,9 +143,8 @@ const StyledProject = styled.div`
 
     li {
       margin: 0 20px 5px 0;
-      color: var(--light-slate);
-      font-family: var(--font-mono);
-      font-size: var(--fz-xs);
+      color: var(--main-black);
+      font-size: var(--fz-s);
       white-space: nowrap;
     }
 
@@ -164,7 +164,7 @@ const StyledProject = styled.div`
     position: relative;
     margin-top: 10px;
     margin-left: -10px;
-    color: var(--lightest-slate);
+    color: var(--main-black);
     a {
       padding: 10px;
       svg {

@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'Personal Portfolio'
-cover: './octoprofile.png'
+cover: './personalwebsite.png'
 github: 'https://github.com/dhuynh97/personalWebsite'
 external: 'https://github.com/dhuynh97/personalWebsite'
 tech:

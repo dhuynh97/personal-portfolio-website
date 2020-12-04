@@ -54,7 +54,8 @@ const Hero = () => {
   const one = <h1></h1>;
   const two = <h2 className="big-heading"> Hey there, I'm Daniel Huynh.</h2>;
   const three = <h3 className="medium-heading"> A Software Engineer from San Jose, CA </h3>;
-  const four = <p>I'm currently an undergrad studying Business and Computer Science at the University of California, San Diego. I hope to be able to intersect both of my passions of finance and computer science into meaningful work.</p>;
+  const four = <p>I'm currently an undergrad studying Business and Computer Science at the University of California, San Diego.
+                  I hope to be able to intersect both of my passions of finance and computer science into meaningful work.</p>;
   const five = (
     <p></p>
   );

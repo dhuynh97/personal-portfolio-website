@@ -87,7 +87,7 @@ const StyledProject = styled.div`
 
   .project-overline {
     margin: 10px 0;
-    color: var(--green);
+    color: var(--white);
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
     font-weight: 400;
@@ -95,7 +95,7 @@ const StyledProject = styled.div`
 
   .project-title {
     color: var(--main-black);
-    font-size: clamp(24px, 5vw, 28px);
+    font-size: clamp(32px, 5vw, 28px);
 
     @media (min-width: 768px) {
       margin: 0 0 20px;
@@ -189,7 +189,7 @@ const StyledProject = styled.div`
 
     a {
       width: 100%;
-      background-color: var(--green);
+      background-color: var(--white);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -215,7 +215,7 @@ const StyledProject = styled.div`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--navy);
+        background-color: var(--white);
         mix-blend-mode: screen;
       }
     }

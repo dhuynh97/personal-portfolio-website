@@ -8,6 +8,7 @@ tech:
   - React
   - GatsbyJS
   - JavaScript
+  - CSS
 showInProjects: true
 ---
 

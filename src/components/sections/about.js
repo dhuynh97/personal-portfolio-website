@@ -147,12 +147,11 @@ const About = () => {
             </p>
 
             <p>
-              I've tried many things before becoming passionate about software engineering. 
+              I am passionate about many things
             </p>
 
             <p>
-    
-               
+              Feel free to look at my resume by clicking here.
             </p>
 
             <p></p>

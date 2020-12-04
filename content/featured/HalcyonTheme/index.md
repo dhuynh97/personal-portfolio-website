@@ -1,16 +1,14 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
+title: 'Scrappppr'
 cover: './halcyon.png'
-github: 'https://github.com/dhuynh97/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+github: 'https://github.com/dhuynh97/bbscraper'
+external: 'https://github.com/dhuynh97/bbscraper'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - Python3
+  - Beautiful Soup
+  - Py
 showInProjects: true
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=DanielHuynh.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+An internal tool I developed during my Business Consulting Summer Analyst internship at [Bainbridge Consulting](https://bainbridgeconsulting.com). This tool was used to gather prospective client contact information for the consulting firm. My contact scraping script gathered over 1,000 entries of prospective client contacts for the firm's business development and outreach pipeline.

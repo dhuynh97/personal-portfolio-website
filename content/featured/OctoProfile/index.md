@@ -1,14 +1,16 @@
 ---
 date: '3'
-title: 'OctoProfile'
+title: 'Personal Portfolio'
 cover: './octoprofile.png'
-github: 'https://github.com/dhuynh97/octoprofile'
-external: 'https://octoprofile.now.sh'
+github: 'https://github.com/dhuynh97/personalWebsite'
+external: 'https://github.com/dhuynh97/personalWebsite'
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
+  - React
+  - GatsbyJS
+  - JavaScript
 showInProjects: true
 ---
 
-A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.
+Developed the current website you're on with a variety of tools. Deployed and DNS server using Netlify hosting my central repository. I'm constantly making changes to my website so be sure to check back for new features or content!
+click here to check out some of my work into this website
+Website was created in GatsbyJS to deploy static

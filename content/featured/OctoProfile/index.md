@@ -3,7 +3,7 @@ date: '3'
 title: 'Personal Portfolio'
 cover: './personalwebsite.png'
 github: 'https://github.com/dhuynh97/personalWebsite'
-external: 'https://github.com/dhuynh97/personalWebsite'
+external: 'https://app.netlify.com/sites/danielhuynh/deploys'
 tech:
   - React
   - GatsbyJS

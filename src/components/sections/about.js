@@ -82,7 +82,7 @@ const StyledPic = styled.div`
 
     .img {
       position: relative;
-      border-radius: 8px;
+      border-radius: 0px;
       mix-blend-mode: multiply;
       filter: grayscale(1%) contrast(1);
       transition: var(--transition);

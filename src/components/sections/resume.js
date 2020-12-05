@@ -26,7 +26,9 @@ const StyledHeroSection = styled.section`
   }
 
   h2 {
-    color: var(--main-black);
+	margin-left: auto;;
+	margin-right: auto;
+    color: var(--main-blue);
   }
 
   h3 {
@@ -39,17 +41,11 @@ const StyledHeroSection = styled.section`
     margin: 20px 0 0;
     max-width: 500px;
   }
-
-  .email-link {
-    ${({ theme }) => theme.mixins.bigButton};
-      background: --main-blue;
-    margin-top: 50px;
-  }
 `;
 const StyledPic = styled.div`
   position: relative;
-  bottom: 100px;
-  max-width: 1920px;
+  bottom: 10px;
+  max-width: 1440px;
   width: 100%;
 
   @media (max-width: 768px) {
@@ -61,7 +57,7 @@ const StyledPic = styled.div`
     ${({ theme }) => theme.mixins.boxShadow};
     display: block;
     position: relative;
-	width: 65%;
+	width: 75%;
 	margin-left: auto;
     margin-right: auto;
     border-radius: var(--border-radius);
@@ -163,6 +159,7 @@ const Resume = () => {
     }
   `);
 	
+  const revealTitle = useRef(null);	
   const revealContainer = useRef(null);
   
   useEffect(() => {
@@ -170,7 +167,10 @@ const Resume = () => {
   }, []);
   
 	return (
-	  <StyledHeroSection>
+		<StyledHeroSection>
+		<h2 className="numbered-heading" ref={revealTitle}>
+        	Resume
+      	</h2>
         <StyledPic>
 				<div className="wrapper">
 					<a href="/resume.pdf">

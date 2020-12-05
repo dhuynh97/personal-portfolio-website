@@ -114,7 +114,7 @@ const StyledPic = styled.div`
 
     .img {
       position: relative;
-      border-radius: 0px;
+      border-radius: 3px;
       mix-blend-mode: multiply;
       filter: grayscale(1%) contrast(1);
       transition: var(--transition);
@@ -166,7 +166,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Java', 'C++', 'Python', 'JavaScript (ES6+)', 'HTML & (S)CSS', 'React'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -186,7 +186,7 @@ const About = () => {
               Feel free to view and download my resume <a href="/resume.pdf"> here. </a>
             </p>
 
-            <p></p>
+            <p>Here are some of the technologies I have worked with:</p>
           </div>
 
           <ul className="skills-list">

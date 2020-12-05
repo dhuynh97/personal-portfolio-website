@@ -35,10 +35,10 @@ const StyledText = styled.div`
       font-size: var(--fz-xs);
 
       &:before {
-        content: '▹';
+        content: '》';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--main-blue);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -47,8 +47,9 @@ const StyledText = styled.div`
 `;
 const StyledPic = styled.div`
   position: relative;
-  max-width: 1000px;
-  width: 150%;
+  bottom: 100px;
+  max-width: 1920px;
+  width: 100%;
 
   @media (max-width: 768px) {
     margin: 0px auto 0;
@@ -81,9 +82,9 @@ const StyledPic = styled.div`
 
     .img {
       position: relative;
-      border-radius: var(--border-radius);
+      border-radius: 10px;
       mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      filter: grayscale(5%) contrast(1);
       transition: var(--transition);
     }
 
@@ -94,19 +95,19 @@ const StyledPic = styled.div`
       position: absolute;
       width: 100%;
       height: 100%;
-      border-radius: var(--border-radius);
+      border-radius: 3px;
       transition: var(--transition);
     }
 
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--navy);
+      background-color: var(--white);
       mix-blend-mode: screen;
     }
 
     &:after {
-      border: 2px solid var(--green);
+      border: 1px solid var(--main-black);
       top: 20px;
       left: 20px;
       z-index: -1;
@@ -119,7 +120,7 @@ const About = () => {
     query {
       avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
+          fluid(maxWidth: 1920, webpQuality: 90, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }

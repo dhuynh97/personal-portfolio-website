@@ -82,9 +82,9 @@ const StyledPic = styled.div`
 
     .img {
       position: relative;
-      border-radius: 10px;
+      border-radius: 8px;
       mix-blend-mode: multiply;
-      filter: grayscale(5%) contrast(1);
+      filter: grayscale(1%) contrast(1);
       transition: var(--transition);
     }
 
@@ -120,7 +120,7 @@ const About = () => {
     query {
       avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1920, webpQuality: 90, traceSVG: { color: "#64ffda" }) {
+          fluid(maxWidth: 1920, webpQuality: 100, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }

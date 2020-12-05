@@ -120,7 +120,7 @@ const About = () => {
     query {
       avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1920, webpQuality: 100, traceSVG: { color: "#64ffda" }) {
+          fluid(maxWidth: 1920, webpQuality: 100, traceSVG: { color: "#054e5b" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }

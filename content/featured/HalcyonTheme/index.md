@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Scrappppr'
-cover: './halcyon.png'
+cover: './webscraper.png'
 github: 'https://github.com/dhuynh97/bbscraper'
 external: 'https://github.com/dhuynh97/bbscraper'
 tech:

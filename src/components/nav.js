@@ -111,7 +111,7 @@ const StyledLinks = styled.div`
         &:before {
           content: '';
           margin-right: 5px;
-          color: var(--green);
+          color: var(--main-black);
           font-size: var(--fz-xxs);
           text-align: right;
         }

@@ -1,15 +1,15 @@
 ---
 date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/dhuynh97/spotify-profile'
+title: 'SpotifyShouldJustHireMe'
+cover: './app.png'
+github: 'https://github.com/dhuynh97/'
 external: 'https://spotify-profile.herokuapp.com/'
 tech:
-  - React
+  - Python3
   - Node.js
-  - Express
+  - Apple Music API
   - Spotify Web API
 showInProjects: true
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+A personal app for synchronizing playlists between two competing music streaming platforms. Despite my love for Spotify, I will have to say they are are lacking the implementation of many useful features: one of them being able to store your playlists offline onto your Apple Watch.

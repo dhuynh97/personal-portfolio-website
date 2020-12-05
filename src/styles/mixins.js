@@ -16,7 +16,7 @@ const button = css`
   &:hover,
   &:focus,
   &:active {
-    background-color: var(--green-tint);
+    background-color: var(--blue-tint);
     outline: none;
   }
   &:after {
@@ -48,7 +48,7 @@ const mixins = {
     &:hover,
     &:active,
     &:focus {
-      color: var(--green);
+      color: var(--main-blue);
       outline: 0;
     }
   `,
@@ -60,17 +60,17 @@ const mixins = {
     position: relative;
     transition: var(--transition);
     cursor: pointer;
-    color: var(--green);
+    color: var(--main-blue);
     &:hover,
     &:focus,
     &:active {
-      color: var(--green);
+      color: var(--main-blue);
       outline: 0;
       &:after {
         width: 100%;
       }
       & > * {
-        color: var(--green) !important;
+        color: var(--main-blue) !important;
         transition: var(--transition);
       }
     }
@@ -81,9 +81,9 @@ const mixins = {
       height: 1px;
       position: relative;
       bottom: 0.37em;
-      background-color: var(--green);
+      background-color: var(--main-blue);
       transition: var(--transition);
-      opacity: 0.5;
+      opacity: 1;
     }
   `,
 
@@ -92,7 +92,7 @@ const mixins = {
   smallButton: css`
     color: var(--main-black);
     background-color: transparent;
-    border: 1px solid var(--green);
+    border: 1px solid var(--main-blue);
     border-radius: 0px;
     padding: 0.5rem 1rem;
     font-size: var(--fz-xs);
@@ -104,7 +104,7 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: var(--green-tint);
+      background-color: var(--button-shadow);
     }
     &:after {
       display: none !important;
@@ -112,10 +112,10 @@ const mixins = {
   `,
 
   bigButton: css`
-    color: var(--green);
+    color: var(--main-black);
     background-color: transparent;
-    border: 1px solid var(--green);
-    border-radius: var(--border-radius);
+    border: 1px solid var(--main-blue);
+    border-radius: 2px;
     padding: 1.25rem 1.75rem;
     font-size: var(--fz-sm);
     background: --main-blue;
@@ -127,7 +127,7 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: var(--green-tint);
+      background-color: var(--button-shadow);
     }
     &:after {
       display: none !important;
@@ -135,12 +135,12 @@ const mixins = {
   `,
 
   boxShadow: css`
-    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    box-shadow: 0 10px 30px -15px var(--black-shadow);
     transition: var(--transition);
 
     &:hover,
     &:focus {
-      box-shadow: 0 20px 30px -15px var(--navy-shadow);
+      box-shadow: 0 20px 30px -15px var(--black-shadow);
     }
   `,
 

@@ -100,10 +100,10 @@ const StyledLinks = styled.div`
     list-style: none;
 
     li {
-      margin: 0 5px;
+      margin: 0 15px;
       position: relative;
       counter-increment: item 1;
-      font-size: var(--fz-xs);
+      font-size: var(--fz-sm);
 
       a {
         padding: 10px;
@@ -122,7 +122,7 @@ const StyledLinks = styled.div`
   .resume-button {
     ${({ theme }) => theme.mixins.smallButton};
     margin-left: 15px;
-    font-size: var(--fz-xs);
+    font-size: var(--fz-sm);
   }
 `;
 

@@ -80,6 +80,38 @@ const StyledPic = styled.div`
       }
     }
 
+    a {
+      width: 100%;
+      background-color: var(--white);
+      border-radius: var(--border-radius);
+      vertical-align: middle;
+    
+      &:hover,
+      &:focus {
+        background: transparent;
+    
+        &:before,
+        .img {
+        background: transparent;
+        filter: none;
+        }
+      }
+    
+      &:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+        transition: var(--transition);
+        mix-blend-mode: screen;
+      }
+      }
+
     .img {
       position: relative;
       border-radius: 0px;
@@ -164,7 +196,9 @@ const About = () => {
 
         <StyledPic>
           <div className="wrapper">
-            <Img fluid={data.avatar.childImageSharp.fluid} alt="Avatar" className="img" />
+            <a href = "https://www.linkedin.com/in/danielhuynh97">
+              <Img fluid={data.avatar.childImageSharp.fluid} alt="Avatar" className="img" />
+              </a>
           </div>
         </StyledPic>
       </div>

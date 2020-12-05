@@ -102,7 +102,7 @@ const StyledProject = styled.div`
     }
 
     @media (max-width: 768px) {
-      color: var(--white);
+      color: var(--main-black);
     }
   }
 
@@ -153,7 +153,7 @@ const StyledProject = styled.div`
 
       li {
         margin: 0 10px 5px 0;
-        color: var(--lightest-slate);
+        color: var(--main-black);
       }
     }
   }
@@ -164,12 +164,12 @@ const StyledProject = styled.div`
     position: relative;
     margin-top: 10px;
     margin-left: -10px;
-    color: var(--main-black);
+    color: var(--main-blue);
     a {
       padding: 10px;
       svg {
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
       }
     }
   }
@@ -184,12 +184,12 @@ const StyledProject = styled.div`
     @media (max-width: 768px) {
       grid-column: 1 / -1;
       height: 100%;
-      opacity: 0.25;
+      opacity: 0.55;
     }
 
     a {
       width: 100%;
-      background-color: var(--main-white);
+      background-color: var(--white);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -247,7 +247,7 @@ const Featured = () => {
               title
               cover {
                 childImageSharp {
-                  fluid(maxWidth: 700, traceSVG: { color: "#64ffda" }) {
+                  fluid(maxWidth: 1440, webpQuality: 100, traceSVG: { color: "#fbfbfd" }) {
                     ...GatsbyImageSharpFluid_withWebp_tracedSVG
                   }
                 }

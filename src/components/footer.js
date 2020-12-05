@@ -41,7 +41,7 @@ const StyledSocialLinks = styled.div`
 `;
 
 const StyledCredit = styled.div`
-  color: var(--light-slate);
+  color: var(--light-grey);
   font-family: var(--font-mono);
   font-size: var(--fz-xxs);
   line-height: 1;
@@ -105,7 +105,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/dhuynh97/v4">
+        <a href="https://github.com/dhuynh97/personalWebsite">
           <div>Designed &amp; Built by Daniel Huynh</div>
 
           {githubInfo.stars && githubInfo.forks && (

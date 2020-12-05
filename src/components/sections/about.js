@@ -144,15 +144,14 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hey there, My name is Daniel Huynh! I'm a software engineer from San Jose, CA. I'm currently an undergrad studying Business and Computer Science at <a href="https://www.ucsd.edu"> UC San Diego </a> 
+              Hey there, My name is Daniel Huynh! I'm a software engineer from San Jose, CA. I'm currently an undergrad studying Business and Computer Science at <a href="https://www.ucsd.edu"> UC San Diego </a>.
             </p>
 
             <p>
-              I am passionate about many things
             </p>
 
             <p>
-              Feel free to look at my resume by clicking here.
+              Feel free to view and download my resume <a href="/resume.pdf"> here. </a>
             </p>
 
             <p></p>

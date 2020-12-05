@@ -1,6 +1,6 @@
 ---
 date: '2'
-title: 'SpotifyShouldJustHireMe'
+title: 'ughSpotifyComeOn'
 cover: './app.png'
 github: 'https://github.com/dhuynh97/'
 external: 'https://spotify-profile.herokuapp.com/'

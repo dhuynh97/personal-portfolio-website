@@ -37,7 +37,7 @@ const StyledSocialList = styled.ul`
 
       svg {
         width: 35px;
-        height: 35px;
+        height: 45px;
       }
     }
   }

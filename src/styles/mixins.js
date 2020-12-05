@@ -118,7 +118,7 @@ const mixins = {
     border-radius: 2px;
     padding: 1.25rem 1.75rem;
     font-size: var(--fz-sm);
-    background: --main-blue;
+    background: --main-black;
     font-family: var(--font-mono);
     line-height: 1;
     text-decoration: none;

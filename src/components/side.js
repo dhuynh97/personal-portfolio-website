@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { loaderDelay } from '@utils';
 
 const StyledSideElement = styled.div`
-  width: 40px;
+  width: 43px;
   position: fixed;
   bottom: 0;
   left: ${props => (props.orientation === 'left' ? '40px' : 'auto')};

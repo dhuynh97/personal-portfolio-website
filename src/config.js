@@ -11,10 +11,6 @@ module.exports = {
       url: 'https://www.linkedin.com/in/danielhuynh97',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/dhuynh97',
-    },
-    {
       name: 'Instagram',
       url: 'https://www.instagram.com/danisdabombdotcom',
     },
@@ -31,7 +27,7 @@ module.exports = {
     },
     {
       name: 'Experience',
-      url: '/#jobs',
+      url: '/#experience',
     },
     {
       name: 'Work',

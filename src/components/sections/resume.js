@@ -12,7 +12,7 @@ const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
-  min-height: 100vh;
+  min-height: 10vh;
 
   h1 {
     margin: 0 0 30px 0px;
@@ -46,28 +46,138 @@ const StyledHeroSection = styled.section`
     margin-top: 50px;
   }
 `;
+const StyledPic = styled.div`
+  position: relative;
+  bottom: 100px;
+  max-width: 1920px;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    margin: 0px auto 0;
+    width: 100%;
+  }
+
+  .wrapper {
+    ${({ theme }) => theme.mixins.boxShadow};
+    display: block;
+    position: relative;
+	width: 65%;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: var(--border-radius);
+    background-color: var(--main-black);
+
+    &:hover,
+    &:focus {
+      background: transparent;
+      outline: 0;
+
+      &:after {
+        top: 15px;
+        left: 15px;
+      }
+
+      .img {
+        filter: none;
+        mix-blend-mode: normal;
+      }
+	}
+	
+	a {
+		width: 100%;
+		background-color: var(--white);
+		border-radius: var(--border-radius);
+		vertical-align: middle;
+  
+		&:hover,
+		&:focus {
+		  background: transparent;
+  
+		  &:before,
+		  .img {
+			background: transparent;
+			filter: none;
+		  }
+		}
+  
+		&:before {
+		  content: '';
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  z-index: 3;
+		  transition: var(--transition);
+		  mix-blend-mode: screen;
+		}
+	  }
+
+    .img {
+      position: relative;
+      border-radius: 0px;
+      mix-blend-mode: multiply;
+      filter: grayscale(1%) contrast(1);
+      transition: var(--transition);
+    }
+
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 3px;
+      transition: var(--transition);
+    }
+
+    &:before {
+      top: 0;
+      left: 0;
+      background-color: var(--white);
+      mix-blend-mode: screen;
+    }
+
+    &:after {
+      border: 1px solid var(--main-black);
+      top: 20px;
+      left: 20px;
+      z-index: -1;
+    }
+  }
+`;
 
 const Resume = () => {
-	const [isMounted, setIsMounted] = useState(false);
+	const data = useStaticQuery(graphql`
+    query {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "resume.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 4000, quality: 100, webpQuality: 100, traceSVG: { color: "#054e5b" }) {
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG
+          }
+        }
+      }
+    }
+  `);
+	
+  const revealContainer = useRef(null);
   
-	useEffect(() => {
-	  const timeout = setTimeout(() => setIsMounted(true), navDelay);
-	  return () => clearTimeout(timeout);
-	}, []);
-  
-	const one = <h1></h1>;
-	const two = <h2 className="big-heading"></h2>;
-	const three = <h3 className="medium-heading"></h3>;
-	const four = <p>holder</p>;
-	const five = (
-	  <p></p>
-	);
-  
-	const items = [one, two, three, four, five];
+  useEffect(() => {
+    sr.reveal(revealContainer.current, srConfig());
+  }, []);
   
 	return (
 	  <StyledHeroSection>
-		  
+        <StyledPic>
+				<div className="wrapper">
+					<a href="/resume.pdf">
+					<Img fluid={data.avatar.childImageSharp.fluid} alt="Resume" className="img" />
+					</a>
+          </div>
+        </StyledPic>
 	  </StyledHeroSection>
 	);
   };

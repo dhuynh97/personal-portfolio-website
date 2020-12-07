@@ -12,29 +12,13 @@ const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
-  min-height: 10vh;
-
-  h1 {
-    margin: 0 0 30px 0px;
-    color: var(--green);
-    font-family: var(--font-mono);
-    font-weight: 500;
-
-    @media (max-width: 480px) {
-      margin: 0 0 20px 2px;
-    }
-  }
+  min-height: 0vh;
+  
 
   h2 {
 	margin-left: auto;;
 	margin-right: auto;
     color: var(--main-blue);
-  }
-
-  h3 {
-    margin-top: 10px;
-    color: var(--main-blue);
-    line-height: 0.9;
   }
 
   p {

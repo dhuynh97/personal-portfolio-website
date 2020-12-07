@@ -5,7 +5,7 @@ import sr from '@utils/sr';
 
 const StyledContactSection = styled.section`
   max-width: 600px;
-  margin: 0 auto 100px;
+  margin: 0 auto 0px;
   text-align: center;
 
   @media (max-width: 768px) {

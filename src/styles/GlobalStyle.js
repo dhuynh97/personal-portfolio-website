@@ -362,7 +362,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: var(--white);
+    color: var(--main-blue);
   }
 
   .overline {

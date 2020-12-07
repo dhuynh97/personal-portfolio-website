@@ -7,11 +7,12 @@ import sr from '@utils/sr';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
+  margin: 0 auto -150px;
 
   .inner {
     display: grid;
     grid-template-columns: 3fr 2fr;
-    grid-gap: 50px;
+    grid-gap: 10px;
 
     @media (max-width: 768px) {
       display: block;
@@ -166,7 +167,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Java', 'C++', 'Python', 'JavaScript (ES6+)', 'HTML & (S)CSS', 'React'];
+  const skills = ['Java', 'C++', 'Python', 'JavaScript (ES6+)', 'HTML & CSS', 'React'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>

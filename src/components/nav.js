@@ -105,7 +105,7 @@ const StyledLinks = styled.div`
       margin: 0 15px;
       position: relative;
       counter-increment: item 1;
-      font-size: var(--fz-lg);
+      font-size: var(--fz-xl);
 
       a {
         padding: 10px;
@@ -125,10 +125,9 @@ const StyledLinks = styled.div`
     ${({ theme }) => theme.mixins.smallButton};
     padding-top: 10px;
     padding-bottom: 5px;
-    
     margin-left: 15px;
     font-family: var(--font-sans);
-    font-size: var(--fz-lg);
+    font-size: var(--fz-xl);
   }
 `;
 

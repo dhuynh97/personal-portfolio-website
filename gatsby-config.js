@@ -2,7 +2,7 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Daniel Huynh',
+    title: 'Daniel Huynh | Portfolio',
     description:
       'Daniel Huynh is a software engineer from San Jose, California and graduated from UC San Diego.',
     siteUrl: 'https://danielhuynh.co', // No trailing slash allowed!
@@ -73,7 +73,7 @@ module.exports = {
             // https://www.gatsbyjs.org/packages/gatsby-remark-images
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 700,
+              maxWidth: 1000,
               linkImagesToOriginal: true,
               quality: 90,
               tracedSVG: { color: config.colors.white },

@@ -57,7 +57,7 @@ const StyledNav = styled.nav`
   position: relative;
   width: 100%;
   color: var(--main-black);
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
   counter-reset: item 0;
   z-index: 12;
 
@@ -101,10 +101,11 @@ const StyledLinks = styled.div`
     list-style: none;
 
     li {
+      padding-top: 5px;
       margin: 0 15px;
       position: relative;
       counter-increment: item 1;
-      font-size: var(--fz-sm);
+      font-size: var(--fz-lg);
 
       a {
         padding: 10px;
@@ -122,8 +123,12 @@ const StyledLinks = styled.div`
 
   .resume-button {
     ${({ theme }) => theme.mixins.smallButton};
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
     margin-left: 15px;
-    font-size: var(--fz-sm);
+    font-family: var(--font-sans);
+    font-size: var(--fz-lg);
   }
 `;
 

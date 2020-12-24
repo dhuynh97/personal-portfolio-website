@@ -41,7 +41,7 @@ const StyledHeader = styled.header`
     css`
       height: var(--nav-scroll-height);
       transform: translateY(calc(var(--nav-scroll-height) * -1));
-      box-shadow: 0 10px 300px -10px var(--main-black);
+      box-shadow: 0 10px 30px -10px var(--main-black);
     `};
 
   @media (max-width: 1080px) {

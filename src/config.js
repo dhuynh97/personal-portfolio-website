@@ -26,12 +26,12 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Experience',
-      url: '/#resume',
+      name: 'Projects',
+      url: '/#projects',
     },
     {
-      name: 'Work',
-      url: '/#projects',
+      name: 'Experience',
+      url: '/#resume',
     },
     {
       name: 'Contact',
@@ -46,10 +46,10 @@ module.exports = {
     white: '#fbfbfd',
   },
 
-  srConfig: (delay = 100, viewFactor = 0.25) => ({
+  srConfig: (delay = 80, viewFactor = 0.25) => ({
     origin: 'bottom',
     distance: '20px',
-    duration: 400,
+    duration: 500,
     delay,
     rotate: { x: 0, y: 0, z: 0 },
     opacity: 0,

@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "Personal Portfolio Site",
+  "description": "Daniel Huynh | Personal Portfolio",
   "version": "1.0.0",
   "author": "Daniel Huynh <danielhuynh97@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dhuynh97/v4"
+    "url": "https://github.com/dhuynh97/myWebsite"
   },
   "keywords": [
     "gatsby"

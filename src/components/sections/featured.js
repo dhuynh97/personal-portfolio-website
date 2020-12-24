@@ -144,7 +144,7 @@ const StyledProject = styled.div`
     li {
       margin: 0 20px 5px 0;
       color: var(--main-black);
-      font-size: var(--fz-s);
+      font-size: var(--fz-lg);
       white-space: nowrap;
     }
 

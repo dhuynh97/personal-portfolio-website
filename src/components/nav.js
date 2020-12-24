@@ -125,6 +125,7 @@ const StyledLinks = styled.div`
     ${({ theme }) => theme.mixins.smallButton};
     padding-top: 10px;
     padding-bottom: 5px;
+    border-radius: 20px;
     margin-left: 15px;
     font-family: var(--font-sans);
     font-size: var(--fz-xl);

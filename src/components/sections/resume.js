@@ -8,7 +8,7 @@ import { srConfig } from '@config';
 import { Icon } from '@components/icons';
 import { navDelay, loaderDelay } from '@utils';
 
-const StyledHeroSection = styled.section`
+const ResumeImg = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
@@ -143,7 +143,6 @@ const Resume = () => {
     }
   `);
 	
-  const revealTitle = useRef(null);	
   const revealContainer = useRef(null);
   
   useEffect(() => {
@@ -151,8 +150,8 @@ const Resume = () => {
   }, []);
   
 	return (
-		<StyledHeroSection>
-		<h2 className="numbered-heading" ref={revealTitle}>
+		<ResumeImg id="resume" ref={revealContainer}>
+		<h2 className="numbered-heading">
         	Resume
       	</h2>
         <StyledPic>
@@ -162,7 +161,7 @@ const Resume = () => {
 					</a>
           </div>
         </StyledPic>
-	  </StyledHeroSection>
+	  </ResumeImg>
 	);
   };
   

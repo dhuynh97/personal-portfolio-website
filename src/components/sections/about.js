@@ -31,11 +31,12 @@ const StyledText = styled.div`
     li {
       position: relative;
       margin-bottom: 10px;
-      padding-left: 20px;
-      font-family: var(--font-mono);
-      font-size: var(--fz-xs);
+      padding-left: 15px;
+      font-family: var(--font-sans);
+      font-size: var(--fz-lg);
 
       &:before {
+        margin-top: 6px;
         content: '》';
         position: absolute;
         left: 0;

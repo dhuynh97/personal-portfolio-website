@@ -111,7 +111,8 @@ const StyledSidebar = styled.aside`
     width: 100%;
     flex-direction: column;
     color: var(--main-black);
-    font-family: var(--font-mono);
+    font-family: var(--font-sans);
+    
     text-align: center;
   }
 
@@ -125,7 +126,7 @@ const StyledSidebar = styled.aside`
       position: relative;
       margin: 0 auto 20px;
       counter-increment: item 1;
-      font-size: clamp(var(--fz-sm), 4vw, var(--fz-lg));
+      font-size: clamp(var(--fz-xxl), 4vw, var(--fz-xxl));
 
       @media (max-width: 600px) {
         margin: 0 auto 10px;
@@ -134,9 +135,9 @@ const StyledSidebar = styled.aside`
       &:before {
         content: '-';
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 1px;
         color: var(--main-blue);
-        font-size: var(--fz-sm);
+        font-size: var(--fz-md);
       }
     }
 

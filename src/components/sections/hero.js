@@ -39,8 +39,8 @@ const StyledHeroSection = styled.section`
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 40px;
-    padding-bottom: 14px;
-    font-size: var(--fz-lg);
+    padding-bottom: 12px;
+    font-size: var(--fz-xl);
   }
 `;
 

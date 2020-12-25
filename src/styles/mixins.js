@@ -104,7 +104,8 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: var(--button-shadow);
+      background-color: var(--main-blue);
+      color: var(--light-grey);
     }
     &:after {
       display: none !important;

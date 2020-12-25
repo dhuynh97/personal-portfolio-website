@@ -51,7 +51,7 @@ const Contact = () => {
 
       <p>I always love having the chance to connect with other people to hear about new
       ideas or opportunities. My inbox is always open so feel free to send me an email to just
-        say hi or connect with me on <a href='linkedin.com/in/danielhuynh97'> LinkedIn</a>. </p>
+        say hi or connect with me on <a href='linkedin.com/in/danielhuynh97'> LinkedIn</a>. Thanks for coming by!</p>
 
       <a className="email-link" href={`mailto:${email}`}>
         send an email

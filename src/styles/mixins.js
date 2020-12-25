@@ -116,18 +116,19 @@ const mixins = {
     background-color: transparent;
     border: 1px solid var(--main-blue);
     border-radius: 20px;
-    padding: .75rem 1rem;
+    padding: 1rem 1.25rem;
     font-size: var(--fz-lg);
     background: --main-black;
     font-family: var(--font-sans);
-    line-height: 1;
-    text-decoration: none;
+    line-height: 0.25;
+    text-decoration: underline;
     cursor: pointer;
     transition: var(--transition);
     &:hover,
     &:focus,
     &:active {
-      background-color: var(--button-shadow);
+      background-color: var(--main-blue);
+      color: var(--light-grey);
     }
     &:after {
       display: none !important;

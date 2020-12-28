@@ -37,6 +37,7 @@ const StyledContactSection = styled.section`
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 20px;
+    padding-bottom: 12px;
   }
 `;
 
@@ -46,12 +47,14 @@ const Contact = () => {
 
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="title">get in contact</h2>
+      <h2 className="title">need to get in touch?</h2>
 
-      <p>I always love hearing about new opportunities and having the chance to connect new people. Please feel free to send me an email and say hi or connected with me on LinkedIn.</p>
+      <p>I always love having the chance to connect with other people to hear about new
+      ideas or opportunities. My inbox is always open so feel free to send me an email to just
+        say hi or connect with me on <a href='linkedin.com/in/danielhuynh97'> LinkedIn</a>. Thanks for coming by!</p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        send me a message!
+        send an email
       </a>
     </StyledContactSection>
   );

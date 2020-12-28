@@ -16,6 +16,7 @@ const StyledHeader = styled.header`
   z-index: 11;
   padding: 0px 50px;
   width: 100%;
+  opacity: 0.85;
   height: var(--nav-height);
   background-color: var(--white);
   filter: none !important;
@@ -30,8 +31,8 @@ const StyledHeader = styled.header`
     css`
       height: var(--nav-scroll-height);
       transform: translateY(0px);
-      background-color: var(--white);
-      opacity: 0.75;
+      background-color: var(--main-blue);
+      opacity: 0.85;
       box-shadow: 0 10px 30px -10px var(--main-black);
     `};
 

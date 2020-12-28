@@ -33,7 +33,7 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 650px;
+    max-width: 500px;
     font-size: var(--fz-xxl);
   }
   x {
@@ -73,7 +73,7 @@ const Hero = () => {
   const one = <h1></h1>;
   const two = <h2 className="big-heading"> Hey there, I'm Daniel Huynh.</h2>;
   const three = <h3 className="medium-heading"> A Software Engineer from San Jose, CA. </h3>;
-  const four = <p>I'm an undergrad studying Business and Computer Science at <a href='https://www.ucsd.edu'>UC San Diego‏‏‎‎</a> seeking to create valuable solutions to complex problems. <x href='https://www.ucsd.edu'>(go tritons! ♆) </x></p>;
+  const four = <p>I'm an undergrad with a background in Business and Computer Science from <a href='https://www.ucsd.edu'>UC San Diego‏‏‎‎</a> seeking to create meaningful solutions to complex problems. <x href='https://www.ucsd.edu'>(go tritons! ♆) </x></p>;
   const five = (
     <a href= '#about' className="email-link">‏‏‎see more</a>
   );

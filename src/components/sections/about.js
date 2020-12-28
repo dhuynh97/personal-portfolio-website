@@ -26,7 +26,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   p {
     line-height: 1.25;
-    max-width: 500px;
+    max-width: 490px;
   }
 
   ul.skills-list {
@@ -128,7 +128,7 @@ const StyledPic = styled.div`
       position: relative;
       border-radius: 3px;
       mix-blend-mode: multiply;
-      filter: grayscale(1%) contrast(1);
+      filter: grayscale(0%) contrast(1);
       transition: var(--transition);
     }
 
@@ -187,18 +187,14 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hey there, I'm Daniel! I'm a software engineer with a background in Business and Computer Science from <a href="https://www.ucsd.edu"> UC San Diego </a>.</p>
+            <p>Hey there, I'm Daniel! I'm a undergrad with a background in Business and Computer Science from <a href="https://www.ucsd.edu"> UC San Diego </a>. This will be my last year as an undergrad and I will be graduating in June 2021.</p>
             
             <p>
-            My love for programming began when I was a Summer Analyst at Bainbridge writing Python scripts to scrape contact info to optimize customer acquisition. Little did I know, that python script would enable me to build even more useful tools to grow my programming knowledge.
+            My love for programming began when I was working as a consulting summer analyst at Bainbridge writing Python scripts to scrape contact info to optimize customer acquisition. Little did I know, that python script would enable me to build even more useful tools that would grow my breadth of programming knowledge.
             </p>
 
             <p>
               I'm constantly pushing new content and additional changes to my website so feel free to come back for new changes or stay connected with me on social media!
-            </p>
-            
-            <p>
-
             </p>
 
             <p>

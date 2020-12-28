@@ -33,7 +33,25 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 500px;
+    max-width: 650px;
+    font-size: var(--fz-xxl);
+  }
+  x {
+    font-size: var(--fz-md);
+    font-family: var(--font-sans);
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: transparent;
+    position: relative;
+    transition: var(--transition);
+    cursor: pointer;
+    line-height: 1.0;
+
+    &:hover,
+    &:focus {
+      color: gold;
+    }
   }
 
   .email-link {
@@ -54,9 +72,8 @@ const Hero = () => {
 
   const one = <h1></h1>;
   const two = <h2 className="big-heading"> Hey there, I'm Daniel Huynh.</h2>;
-  const three = <h3 className="medium-heading"> A Software Engineer from San Jose, CA </h3>;
-  const four = <p>I'm currently an undergrad studying Business and Computer Science at the University of California, San Diego.
-                  I hope to be able to intersect both of my passions of finance and computer science into meaningful work.</p>;
+  const three = <h3 className="medium-heading"> A Software Engineer from San Jose, CA. </h3>;
+  const four = <p>I'm an undergrad studying Business and Computer Science at <a href='https://www.ucsd.edu'>UC San Diego‏‏‎‎</a> seeking to create valuable solutions to complex problems. <x href='https://www.ucsd.edu'>(go tritons! ♆) </x></p>;
   const five = (
     <a href= '#about' className="email-link">‏‏‎see more</a>
   );

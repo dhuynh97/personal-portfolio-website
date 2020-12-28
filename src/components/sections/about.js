@@ -7,7 +7,7 @@ import sr from '@utils/sr';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
-  margin: 0 auto -150px;
+  margin: 0 auto -100px;
 
   .inner {
     display: grid;
@@ -18,19 +18,28 @@ const StyledAboutSection = styled.section`
       display: block;
     }
   }
+
+  h2 {
+    margin-bottom: 20px;
+  }
 `;
 const StyledText = styled.div`
+  p {
+    line-height: 1.25;
+    max-width: 500px;
+  }
+
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(3, minmax(140px, 160px));
     padding: 0;
-    margin: 20px 0 0 0;
+    margin: 15px 0 0 0;
     overflow: hidden;
     list-style: none;
 
     li {
       position: relative;
-      margin-bottom: 10px;
+      margin-bottom: 6px;
       padding-left: 15px;
       font-family: var(--font-sans);
       font-size: var(--fz-lg);
@@ -39,7 +48,7 @@ const StyledText = styled.div`
         margin-top: 6px;
         content: '》';
         position: absolute;
-        left: 0;
+        left: 4px;
         color: var(--main-blue);
         font-size: var(--fz-sm);
         line-height: 12px;
@@ -54,7 +63,8 @@ const StyledPic = styled.div`
   width: 100%;
 
   @media (max-width: 768px) {
-    margin: 0px auto 0;
+    margin: 0px auto 50px;
+    bottom: 0px;
     width: 100%;
   }
 
@@ -168,7 +178,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Java', 'C++', 'Python', 'JavaScript (ES6+)', 'HTML & CSS', 'React'];
+  const skills = ['JavaScript (ES6+)', ,'React', 'HTML & CSS', 'Java', 'Python', 'C++', 'GatsbyJS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -177,18 +187,24 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
+            <p>Hey there, I'm Daniel! I'm a software engineer with a background in Business and Computer Science from <a href="https://www.ucsd.edu"> UC San Diego </a>.</p>
+            
             <p>
-              Hey there, I'm Daniel! I'm a software engineer from San Jose, CA. I'm currently an undergrad studying Business and Computer Science at <a href="https://www.ucsd.edu"> UC San Diego </a>.
+            My love for programming began when I was a Summer Analyst at Bainbridge writing Python scripts to scrape contact info to optimize customer acquisition. Little did I know, that python script would enable me to build even more useful tools to grow my programming knowledge.
+            </p>
+
+            <p>
+              I'm constantly pushing new content and additional changes to my website so feel free to come back for new changes or stay connected with me on social media!
+            </p>
+            
+            <p>
+
             </p>
 
             <p>
             </p>
 
-            <p>
-              Feel free to view and download my resume <a href="/resume.pdf"> here. </a>
-            </p>
-
-            <p>Here are some of the technologies I have worked with:</p>
+            <p>Below are few of the technologies I've worked with recently:</p>
           </div>
 
           <ul className="skills-list">

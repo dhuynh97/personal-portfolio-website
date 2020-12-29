@@ -5,7 +5,7 @@ cover: './personalwebsite.png'
 github: 'https://github.com/dhuynh97/personalWebsite'
 external: 'https://app.netlify.com/sites/danielhuynh/deploys'
 tech:
-  - Javascript
+  - JavaScript
   - GatsbyJS
   - React
   - HTML & CSS

@@ -1,6 +1,6 @@
 ---
 date: '1'
-title: 'Sskrapprrr'
+title: 'Sskraaprr'
 cover: './webscraper.png'
 github: 'https://github.com/dhuynh97/bbscraper'
 external: 'https://github.com/dhuynh97/personalwebsite'
@@ -11,4 +11,5 @@ tech:
 showInProjects: true
 ---
 
-An internal tool I developed during my time as a Business Consulting Summer Analyst at [Bainbridge Consulting](https://bainbridgeconsulting.com). This tool was used to gather prospective client contact information for the consulting firm. My contact scraping script gathered over 1,000 entries of prospective client contacts for the firm's business development and outreach pipeline.
+A similar build of an internal webscraping tool I developed to collect prospective client contacts for [Bainbridge Consulting](https://bainbridgeconsulting.com). 
+<br> Overall, it resulted in collecting over 1,000 prospective client contacts for the firm's business development pipeline.

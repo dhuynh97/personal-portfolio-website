@@ -5,13 +5,11 @@ cover: './personalwebsite.png'
 github: 'https://github.com/dhuynh97/personalWebsite'
 external: 'https://app.netlify.com/sites/danielhuynh/deploys'
 tech:
-  - React
-  - GatsbyJS
   - JavaScript
-  - CSS
+  - GatsbyJS
+  - React
+  - HTML & CSS
 showInProjects: true
 ---
 
-Developed the current website you're on with a variety of tools. Deployed and DNS server using Netlify hosting my central repository. I'm constantly making changes to my website so be sure to check back for new features or content!
-click here to check out some of my work into this website
-Website was created in GatsbyJS to deploy static
+My personal portfolio website deployed and hosted using <a href = 'https://app.netlify.com/sites/danielhuynh/deploys'>Netlify</a>. Developed with the much faster and optimized React-based framework, <a href = 'https://www.gatsbyjs.com/'>GatsbyJS</a>. I've also integrated Google Analytics into the website to ensure uptime and analyze visitor insights.

@@ -9,18 +9,18 @@ const GlobalStyle = createGlobalStyle`
   :root {
     --main-blue: #054e5b;
     --main-black: #1d1d1f
-    --light-grey: #d0d0d0;
-    --dark-navy: #ffffff;
-    --navy: #ffffff;
-    --light-navy: #172a45;
-    --lightest-navy: #303C55;
+    --light-grey: #c0c0c0;
+    --dark-navy: #fafafa;
+    --navy: #fafafa;
+    --light-navy: #1d1d1f;
+    --lightest-navy: #1d1d1f;
     --navy-shadow: rgba(2, 12, 27, 0.7);
     --black-shadow: rgba(29, 29, 31, 0.7);
     --button-shadow: rgba(29, 29, 31, 0.1);
     --slate: #8892b0;
     --light-slate: #a8b2d1;
     --lightest-slate: #ccd6f6;
-    --white: #ffffff;
+    --white: #fafafa;
     --green: #64ffda;
     --green-tint: rgba(100, 255, 218, 0.1);
     --blue-tint: rgba(5, 78, 91, 0.1);

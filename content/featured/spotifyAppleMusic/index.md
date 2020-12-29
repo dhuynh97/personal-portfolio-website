@@ -1,12 +1,12 @@
 ---
 date: '2'
-title: 'ughSpotifyComeOn'
+title: 'Quarantings Live Chat App'
 cover: './app.png'
 github: 'https://github.com/dhuynh97/'
 external: 'https://spotify-profile.herokuapp.com/'
 tech:
-  - Python3
-  - Node.js
+  - React
+  - JavaScript
   - Apple Music API
   - Spotify Web API
 showInProjects: true

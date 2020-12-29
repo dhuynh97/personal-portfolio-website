@@ -31,7 +31,7 @@ const StyledText = styled.div`
 
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(3, minmax(140px, 160px));
+    grid-template-columns: repeat(3, minmax(120px, 150px));
     padding: 0;
     margin: 15px 0 0 0;
     overflow: hidden;
@@ -187,7 +187,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hey there, I'm Daniel! I'm a undergrad with a background in Business and Computer Science from <a href="https://www.ucsd.edu"> UC San Diego </a>. This will be my last year as an undergrad and I will be graduating in June 2021.</p>
+            <p>Hey there, I'm Daniel! I'm a undergrad with a background in Business and Computer Science from <a href="https://www.ucsd.edu"> UC San Diego </a>. This is my last year as an undergrad and I will be graduating in June 2021.</p>
             
             <p>
             My love for programming began when I was working as a consulting summer analyst at Bainbridge writing Python scripts to scrape contact info to optimize customer acquisition. Little did I know, that python script would enable me to build even more useful tools that would grow my breadth of programming knowledge.

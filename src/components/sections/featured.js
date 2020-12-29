@@ -110,10 +110,10 @@ const StyledProject = styled.div`
     ${({ theme }) => theme.mixins.boxShadow};
     position: relative;
     z-index: 2;
-    padding: 25px;
+    padding: 22px;
     border-radius: var(--border-radius);
     background-color: var(--light-grey);
-    opacity: 0.90;
+    opacity: 0.95;
     color: var(--main-black);
     font-size: var(--fz-lg);
 

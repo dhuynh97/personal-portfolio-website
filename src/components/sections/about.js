@@ -31,7 +31,7 @@ const StyledText = styled.div`
 
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(3, minmax(140px, 160px));
+    grid-template-columns: repeat(3, minmax(120px, 150px));
     padding: 0;
     margin: 15px 0 0 0;
     overflow: hidden;

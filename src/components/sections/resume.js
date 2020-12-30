@@ -41,7 +41,7 @@ const StyledPic = styled.div`
     ${({ theme }) => theme.mixins.boxShadow};
     display: block;
     position: relative;
-	  width: 60%;
+	  width: 65%;
 	  margin-left: auto;
     margin-right: auto;
     border-radius: var(--border-radius);

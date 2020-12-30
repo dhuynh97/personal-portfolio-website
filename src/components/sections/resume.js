@@ -33,7 +33,7 @@ const StyledPic = styled.div`
   width: 100%;
 
   @media (max-width: 768px) {
-    margin: 0px auto 0;
+    margin: auto;
     width: 100%;
   }
 
@@ -41,8 +41,8 @@ const StyledPic = styled.div`
     ${({ theme }) => theme.mixins.boxShadow};
     display: block;
     position: relative;
-	width: 75%;
-	margin-left: auto;
+	  width: 60%;
+	  margin-left: auto;
     margin-right: auto;
     border-radius: var(--border-radius);
     background-color: var(--main-black);

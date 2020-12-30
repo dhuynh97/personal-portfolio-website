@@ -42,8 +42,8 @@ const StyledSocialLinks = styled.div`
 
 const StyledCredit = styled.div`
   color: var(--light-grey);
-  font-family: var(--font-mono);
-  font-size: var(--fz-xxs);
+  font-family: var(--font-sans);
+  font-size: var(--fz-sm);
   line-height: 1;
 
   a {
@@ -106,20 +106,7 @@ const Footer = () => {
 
       <StyledCredit tabindex="-1">
         <a href="https://github.com/dhuynh97/personalWebsite">
-          <div>Designed &amp; Built by Daniel Huynh</div>
-
-          {githubInfo.stars && githubInfo.forks && (
-            <div className="github-stats">
-              <span>
-                <Icon name="Star" />
-                <span>{githubInfo.stars.toLocaleString()}</span>
-              </span>
-              <span>
-                <Icon name="Fork" />
-                <span>{githubInfo.forks.toLocaleString()}</span>
-              </span>
-            </div>
-          )}
+          <div>I'm glad you came. Thanks for stopping by!</div>
         </a>
       </StyledCredit>
     </StyledFooter>

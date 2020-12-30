@@ -7,7 +7,7 @@ import sr from '@utils/sr';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
-  margin: 0 auto -100px;
+  margin: 0 auto -50px;
 
   .inner {
     display: grid;
@@ -26,12 +26,13 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   p {
     line-height: 1.25;
-    max-width: 490px;
+    max-width: 500px;
+    margin: 0 0 20px 0;
   }
 
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(3, minmax(120px, 150px));
+    grid-template-columns: repeat(3, minmax(120px, 140px));
     padding: 0;
     margin: 15px 0 0 0;
     overflow: hidden;
@@ -58,7 +59,7 @@ const StyledText = styled.div`
 `;
 const StyledPic = styled.div`
   position: relative;
-  bottom: 100px;
+  bottom: 25px;
   max-width: 1920px;
   width: 100%;
 
@@ -178,7 +179,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', ,'React', 'HTML & CSS', 'Java', 'Python', 'C++', 'GatsbyJS'];
+  const skills = ['JavaScript', ,'React', 'HTML & CSS', 'Java', 'Python', 'C++', 'GatsbyJS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -187,20 +188,20 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hey there, I'm Daniel! I'm a undergrad with a background in Business and Computer Science from <a href="https://www.ucsd.edu"> UC San Diego </a>. This is my last year as an undergrad and I will be graduating in June 2021.</p>
+            <p>Hey there, I'm Daniel! I'm an undergrad with a background in Business and Computer Science from <a href="https://www.ucsd.edu"> UC San Diego </a>. This is my last year as an undergrad and I'll be graduating in June 2021.</p>
             
             <p>
-            My love for programming began when I was working as a consulting summer analyst at Bainbridge writing Python scripts to scrape contact info to optimize customer acquisition. Little did I know, that python script would enable me to build even more useful tools that would grow my breadth of programming knowledge.
+              One thing I really enjoy doing is keeping up with the latest technologies to understand the impact they have in our world. A recent one that I've found fascinating is blockchain; I truly believe it's going to make huge revolutions within the fintech space and eventually creep into our everyday lives.
+            </p>
+            
+            <p>
+            My love for programming began when I was working at Bainbridge Consulting where I wrote Python scripts to scrape contact info to enhance our customer acquisition. Little did I know, that would be the catalyst for me to dive into the deep ocean of software development.
             </p>
 
             <p>
-              I'm constantly pushing new content and additional changes to my website so feel free to come back for new changes or stay connected with me on social media!
             </p>
 
-            <p>
-            </p>
-
-            <p>Below are few of the technologies I've worked with recently:</p>
+            <p>Below are a few of the technologies I've worked with recently:</p>
           </div>
 
           <ul className="skills-list">

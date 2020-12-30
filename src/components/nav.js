@@ -32,7 +32,7 @@ const StyledHeader = styled.header`
       height: var(--nav-scroll-height);
       transform: translateY(0px);
       background-color: var(--main-blue);
-      opacity: 0.85;
+      opacity: 0.75;
       box-shadow: 0 10px 30px -10px var(--main-black);
     `};
 
@@ -74,12 +74,12 @@ const StyledNav = styled.nav`
       &:hover,
       &:focus {
         svg {
-          fill: var(--main-blue);
+          fill: var(--main-black);
         }
       }
 
       svg {
-        fill: none;
+        fill: var(--main-black);
         transition: var(--transition);
         user-select: none;
       }

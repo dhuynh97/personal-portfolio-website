@@ -7,7 +7,7 @@ import sr from '@utils/sr';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
-  margin: 0 auto -100px;
+  margin: 0 auto -50px;
 
   .inner {
     display: grid;
@@ -27,6 +27,7 @@ const StyledText = styled.div`
   p {
     line-height: 1.25;
     max-width: 500px;
+    margin: 0 0 20px 0;
   }
 
   ul.skills-list {
@@ -190,17 +191,17 @@ const About = () => {
             <p>Hey there, I'm Daniel! I'm an undergrad with a background in Business and Computer Science from <a href="https://www.ucsd.edu"> UC San Diego </a>. This is my last year as an undergrad and I'll be graduating in June 2021.</p>
             
             <p>
-              One thing that I enjoy is keeping up with the latest technologies and understanding the implications they have in our world. A recent one that I've found fascinating is blockchain; I truly believe it's going to make revolutions within the fintech space.
+              One thing I enjoy doing is keeping up with the latest technologies to understand the implications they have in our world. A recent one that I've found fascinating is blockchain; I truly believe it's going to make huge revolutions within the fintech space and eventually creep into our everyday lives.
             </p>
             
             <p>
-            My love for programming began when I was working at Bainbridge Consulting writing Python scripts to scrape contact info to enhance customer acquisition. Little did I know, that would be the catalyst for me to dive into the deep ocean of software development.
+            My love for programming began when I was working at Bainbridge Consulting where I wrote Python scripts to scrape contact info to enhance our customer acquisition. Little did I know, that would be the catalyst for me to dive into the deep ocean of software development.
             </p>
 
             <p>
             </p>
 
-            <p>Below are few of the technologies I've worked with recently:</p>
+            <p>Below are a few of the technologies I've worked with recently:</p>
           </div>
 
           <ul className="skills-list">

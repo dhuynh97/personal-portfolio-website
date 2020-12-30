@@ -26,12 +26,12 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   p {
     line-height: 1.25;
-    max-width: 490px;
+    max-width: 500px;
   }
 
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(3, minmax(120px, 150px));
+    grid-template-columns: repeat(3, minmax(120px, 140px));
     padding: 0;
     margin: 15px 0 0 0;
     overflow: hidden;
@@ -58,7 +58,7 @@ const StyledText = styled.div`
 `;
 const StyledPic = styled.div`
   position: relative;
-  bottom: 100px;
+  bottom: 25px;
   max-width: 1920px;
   width: 100%;
 
@@ -178,7 +178,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', ,'React', 'HTML & CSS', 'Java', 'Python', 'C++', 'GatsbyJS'];
+  const skills = ['JavaScript', ,'React', 'HTML & CSS', 'Java', 'Python', 'C++', 'GatsbyJS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -187,14 +187,14 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hey there, I'm Daniel! I'm a undergrad with a background in Business and Computer Science from <a href="https://www.ucsd.edu"> UC San Diego </a>. This is my last year as an undergrad and I will be graduating in June 2021.</p>
+            <p>Hey there, I'm Daniel! I'm an undergrad with a background in Business and Computer Science from <a href="https://www.ucsd.edu"> UC San Diego </a>. This is my last year as an undergrad and I'll be graduating in June 2021.</p>
             
             <p>
-            My love for programming began when I was working as a consulting summer analyst at Bainbridge writing Python scripts to scrape contact info to optimize customer acquisition. Little did I know, that python script would enable me to build even more useful tools that would grow my breadth of programming knowledge.
+              One thing that I enjoy is keeping up with the latest technologies and understanding the implications they have in our world. A recent one that I've found fascinating is blockchain; I truly believe it's going to make revolutions within the fintech space.
             </p>
-
+            
             <p>
-              I'm constantly pushing new content and additional changes to my website so feel free to come back for new changes or stay connected with me on social media!
+            My love for programming began when I was working at Bainbridge Consulting writing Python scripts to scrape contact info to enhance customer acquisition. Little did I know, that would be the catalyst for me to dive into the deep ocean of software development.
             </p>
 
             <p>

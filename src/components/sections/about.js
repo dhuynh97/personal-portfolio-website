@@ -191,7 +191,7 @@ const About = () => {
             <p>Hey there, I'm Daniel! I'm an undergrad with a background in Business and Computer Science from <a href="https://www.ucsd.edu"> UC San Diego </a>. This is my last year as an undergrad and I'll be graduating in June 2021.</p>
             
             <p>
-              One thing I enjoy doing is keeping up with the latest technologies to understand the implications they have in our world. A recent one that I've found fascinating is blockchain; I truly believe it's going to make huge revolutions within the fintech space and eventually creep into our everyday lives.
+              One thing I really enjoy doing is keeping up with the latest technologies to understand the impact they have in our world. A recent one that I've found fascinating is blockchain; I truly believe it's going to make huge revolutions within the fintech space and eventually creep into our everyday lives.
             </p>
             
             <p>

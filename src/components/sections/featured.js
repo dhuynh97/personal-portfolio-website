@@ -13,7 +13,7 @@ const StyledProject = styled.div`
   align-items: center;
 
   &:not(:last-of-type) {
-    margin-bottom: 125px;
+    margin-bottom: 100px;
 
     @media (max-width: 768px) {
       margin-bottom: 70px;

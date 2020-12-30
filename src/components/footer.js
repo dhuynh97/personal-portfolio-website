@@ -43,7 +43,7 @@ const StyledSocialLinks = styled.div`
 const StyledCredit = styled.div`
   color: var(--light-grey);
   font-family: var(--font-sans);
-  font-size: var(--fz-xs);
+  font-size: var(--fz-sm);
   line-height: 1;
 
   a {

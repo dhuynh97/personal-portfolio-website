@@ -1,15 +1,14 @@
 ---
 date: '2'
-title: 'Quarantings Live Chat App'
+title: 'Placeholder'
 cover: './app.png'
 github: 'https://github.com/dhuynh97/'
 external: 'https://spotify-profile.herokuapp.com/'
 tech:
   - React
   - JavaScript
-  - Apple Music API
-  - Spotify Web API
+  - RestAPI
 showInProjects: true
 ---
 
-A personal app for synchronizing playlists between two competing music streaming platforms. Despite my love for Spotify, I will have to say they are are lacking the implementation of many useful features: one of them being able to store your playlists offline onto your Apple Watch.
+Placeholder

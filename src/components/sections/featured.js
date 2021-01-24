@@ -185,6 +185,7 @@ const StyledProject = styled.div`
     @media (max-width: 768px) {
       grid-column: 1 / -1;
       height: 100%;
+      width: 100%;
       opacity: 0.55;
     }
 

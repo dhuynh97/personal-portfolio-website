@@ -1,6 +1,6 @@
 ---
 date: '1'
-title: 'PE Python Scraper'
+title: 'P.E. Contact Scraper'
 cover: './webscraper.png'
 github: 'https://github.com/dhuynh97/Private-Equity-Python-Contact-Scraper'
 external: 'https://github.com/dhuynh97/Private-Equity-Python-Contact-Scraper'
@@ -12,6 +12,6 @@ tech:
 showInProjects: true
 ---
 
-A similar build of an internal webscraping tool I developed to collect prospective client contacts for [Bainbridge Consulting](https://bainbridgeconsulting.com). 
+A similar build of an internal webscraping tool I developed to collect private equity client contacts for [Bainbridge Consulting](https://bainbridgeconsulting.com). 
 <br> Overall, it resulted in collecting over 1,000 prospective client contacts for the firm's business development pipeline. 
-<br>I developed this using the [Selenium python library](https://pypi.org/project/selenium/) for HTML scraping and [pyXL](https://www.python-excel.org/) for additional Microsoft Excel compatibility.
+<br>I developed this using the [Selenium](https://pypi.org/project/selenium/) python library for HTML scraping and [pyXL](https://www.python-excel.org/) for additional Microsoft Excel compatibility.

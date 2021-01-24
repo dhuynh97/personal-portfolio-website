@@ -8,6 +8,7 @@ tech:
   - Python3
   - Selenium
   - PyXL
+  - Excel
 showInProjects: true
 ---
 

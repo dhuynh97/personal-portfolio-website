@@ -156,7 +156,7 @@ const Resume = () => {
       	</h2>
         <StyledPic>
 				<div className="wrapper">
-					<a href="/resume.pdf">
+					<a href="/resume.pdf" target="_blank">
 					<Img fluid={data.avatar.childImageSharp.fluid} alt="Resume" className="img" />
 					</a>
           </div>

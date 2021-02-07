@@ -1,6 +1,6 @@
 ---
 date: '1'
-title: 'P.E. Contact Scraper'
+title: 'P.E. Contact Scraper 📇'
 cover: './webscraper.png'
 github: 'https://github.com/dhuynh97/Private-Equity-Python-Contact-Scraper'
 external: 'https://github.com/dhuynh97/Private-Equity-Python-Contact-Scraper'

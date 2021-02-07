@@ -1,6 +1,6 @@
 ---
 date: '3'
-title: 'Personal Portfolio'
+title: 'Personal Portfolio 💻'
 cover: './personalwebsite.png'
 github: 'https://github.com/dhuynh97/personalWebsite'
 external: 'https://github.com/dhuynh97/personalWebsite'

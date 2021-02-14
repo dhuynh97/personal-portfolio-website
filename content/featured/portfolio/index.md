@@ -12,4 +12,4 @@ tech:
 showInProjects: true
 ---
 
-My personal portfolio website deployed and hosted using <a href = 'https://app.netlify.com/sites/danielhuynh/deploys'  target="_blank">Netlify</a>. Developed with the much faster and optimized React-based framework, <a href = 'https://www.gatsbyjs.com/' target="_blank">GatsbyJS</a>. I've also integrated Google Analytics to ensure uptime and analyze visitor insights.
+My personal portfolio website hosted and automatically deployed using <a href = 'https://app.netlify.com/sites/danielhuynh/deploys'  target="_blank">Netlify</a>. Developed with the much faster and optimized React-based framework, <a href = 'https://www.gatsbyjs.com/' target="_blank">GatsbyJS</a>. I've also integrated Google Analytics to ensure uptime and analyze visitor insights.

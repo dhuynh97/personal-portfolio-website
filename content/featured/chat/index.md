@@ -1,6 +1,6 @@
 ---
 date: '2'
-title: 'Full Stack Live Chat 💬'
+title: 'Full Stack Live Messaging 💬'
 cover: './app.png'
 github: 'https://github.com/dhuynh97/live-chat-react-firebase'
 external: 'https://chat.danielhuynh.co'

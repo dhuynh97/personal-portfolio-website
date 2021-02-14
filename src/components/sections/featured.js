@@ -180,7 +180,7 @@ const StyledProject = styled.div`
     grid-row: 1 / -1;
     position: relative;
     z-index: 1;
-    width: 110%;
+    width: 100%;
 
     @media (max-width: 768px) {
       grid-column: 1 / -1;

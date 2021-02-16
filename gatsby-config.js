@@ -2,7 +2,7 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Daniel Huynh Portfolio',
+    title: 'Daniel Huynh // Portfolio',
     description:
       'Daniel Huynh is a software engineer from San Jose, California and graduated from UC San Diego.',
     siteUrl: 'https://danielhuynh.co', // No trailing slash allowed!

@@ -179,7 +179,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript', ,'React', 'HTML & CSS', 'Java', 'Python', 'C++', 'GatsbyJS'];
+  const skills = ['JavaScript','React', 'HTML & CSS', 'Java', 'Python', 'C++', 'GatsbyJS', 'Firebase'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -195,7 +195,7 @@ const About = () => {
             </p>
             
             <p>
-            My love for programming began when I was working at Bainbridge Consulting where I wrote Python scripts to scrape contact info to enhance our customer acquisition. Little did I know, that would be the catalyst for me to dive into the deep ocean of software development.
+            My love for programming began when I was working at Bainbridge Consulting where I wrote Python scripts to scrape contact info to improve our customer acquisition. Little did I know, that would be the catalyst for me to dive into the deep ocean of software development.
             </p>
 
             <p>

@@ -188,10 +188,10 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hey there, I'm Daniel! I'm an undergrad with a background in Business and Computer Science from <a href="https://www.ucsd.edu" target="_blank"> UC San Diego </a>. This is my last year as an undergrad and I'll be graduating in June 2021.</p>
+            <p>Hey there. I'm Daniel, an undergrad with a background in Business and Computer Science from <a href="https://www.ucsd.edu" target="_blank"> UC San Diego </a>. I'll be graduating this summer in August 2021.</p>
             
             <p>
-            One thing I love doing is keeping up with emerging technologies to understand the impact that they'll have in our world. A recent one that I've found fascinating is blockchain; I truly believe it's going to make huge revolutions within the fintech space and in some part eventually creep into our everyday lives.
+            One thing I love doing is keeping up with emerging technologies to understand the impact that they'll have in our world. A recent one that I've found fascinating is blockchain; I truly believe it's going to make huge revolutions within the fintech space and in other parts eventually creep into our everyday lives.
             </p>
             
             <p>

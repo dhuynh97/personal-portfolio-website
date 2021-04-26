@@ -118,8 +118,9 @@ const StyledProject = styled.div`
     font-size: var(--fz-lg);
 
     @media (max-width: 768px) {
-      padding: 20px 0;
-      background-color: transparent;
+      padding: 10px 0;
+      background-color: var(--white);
+      opacity: 0.85;
       box-shadow: none;
 
       &:hover {

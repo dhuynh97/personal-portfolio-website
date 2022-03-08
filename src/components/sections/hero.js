@@ -1,7 +1,7 @@
+/* eslint-disable jsx-a11y/heading-has-content */
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
-import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
 
 const StyledHeroSection = styled.section`
@@ -28,7 +28,7 @@ const StyledHeroSection = styled.section`
   h3 {
     margin-top: 10px;
     color: var(--main-blue);
-    line-height: 1.0;
+    line-height: 1;
   }
 
   p {
@@ -46,7 +46,7 @@ const StyledHeroSection = styled.section`
     position: relative;
     transition: var(--transition);
     cursor: pointer;
-    line-height: 1.0;
+    line-height: 1;
 
     &:hover,
     &:focus {
@@ -71,11 +71,27 @@ const Hero = () => {
   }, []);
 
   const one = <h1></h1>;
-  const two = <h2 className="big-heading"> Hey there, I'm Daniel Huynh.</h2>;
-  const three = <h3 className="medium-heading">A Software Developer from UC San Diego.</h3>;
-  const four = <p>I'm an undergrad with a background in Business and Computer Science from <a href='https://www.ucsd.edu'target="_blank">UC San Diego‏‏‎‎</a> looking to create meaningful solutions to complex problems. <x href='https://www.ucsd.edu'>(go tritons! ♆) </x></p>;
+  const two = (
+    <h2 className="big-heading">
+      {' '}
+      Hi there, <h2>s</h2>I'm Daniel Huynh.
+    </h2>
+  );
+  const three = <h3 className="medium-heading">I'm Daniel Huynh.</h3>;
+  const four = (
+    <p>
+      I'm an undergrad with a background in Business and Computer Science from{' '}
+      <a href="https://www.ucsd.edu" target="_blank" rel="noopener noreferrer">
+        UC San Diego‏‏‎‎
+      </a>{' '}
+      looking to create meaningful solutions to complex problems.{' '}
+      <x href="https://www.ucsd.edu">(go tritons! ♆) </x>
+    </p>
+  );
   const five = (
-    <a href= '#about' className="email-link">‏‏‎see more</a>
+    <a href="#about" className="email-link">
+      ‏‏‎see more
+    </a>
   );
 
   const items = [one, two, three, four, five];

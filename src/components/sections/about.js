@@ -98,18 +98,18 @@ const StyledPic = styled.div`
       background-color: var(--white);
       border-radius: var(--border-radius);
       vertical-align: middle;
-    
+
       &:hover,
       &:focus {
         background: transparent;
-    
+
         &:before,
         .img {
-        background: transparent;
-        filter: none;
+          background: transparent;
+          filter: none;
         }
       }
-    
+
       &:before {
         content: '';
         position: absolute;
@@ -123,7 +123,7 @@ const StyledPic = styled.div`
         transition: var(--transition);
         mix-blend-mode: screen;
       }
-      }
+    }
 
     .img {
       position: relative;
@@ -179,7 +179,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript','React', 'HTML & CSS', 'Java', 'Python', 'C++', 'GatsbyJS', 'Firebase'];
+  const skills = ['JavaScript', 'React', 'HTML & CSS', 'Java', 'Python', 'C++', 'LookML', 'SQL'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -188,18 +188,30 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hey there, I'm Daniel. I'm an undergrad with a background in Business and Computer Science from <a href="https://www.ucsd.edu" target="_blank"> UC San Diego </a>. I'll be graduating later this summer in August 2021.</p>
-            
             <p>
-            One thing I love doing is keeping up with emerging technologies to understand the impact that they'll have in our world. A recent one that I've found fascinating is blockchain; I truly believe it's going to make huge revolutions within the fintech space and in other parts eventually creep into our everyday lives.
-            </p>
-            
-            <p>
-            My love for programming began when I was working at Bainbridge Consulting where I wrote Python scripts to scrape contact info to improve our customer acquisition. Little did I know, that would be the catalyst for me to dive into the deep ocean of software development.
+              Hey there, I'm Daniel. I'm currently a Technical Solutions Engineer (TSE) at Google on
+              the Looker team and I graduated from{' '}
+              <a href="https://www.ucsd.edu" target="_blank" rel="noopener noreferrer">
+                {' '}
+                UC San Diego{' '}
+              </a>{' '}
+              with a background in Business/Computer Science.
             </p>
 
             <p>
+              Currently, I mainly analyze and solve complex Google Cloud Platform (GCP) issues from
+              Google’s largest enterprise customers using Looker (LookML, SQL, Databases,
+              Server/Instance Administration, Cloud Monitoring, Git, API/SDK, and more).
             </p>
+
+            <p>
+              I have experience working cross-functionally with Engineering and Product teams to
+              communicate fixes, bugs and customer feedback to improve Looker. I also developed
+              playbooks to improve failure detection and product supportability in areas of
+              expertise that include Google Cloud Application Infrastructure and Looker BI platform.
+            </p>
+
+            <p></p>
 
             <p>Below are a few of the technologies I've worked with recently:</p>
           </div>
@@ -211,9 +223,12 @@ const About = () => {
 
         <StyledPic>
           <div className="wrapper">
-            <a href = "https://www.linkedin.com/in/danielhuynh97" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/danielhuynh97"
+              target="_blank"
+              rel="noopener noreferrer">
               <Img fluid={data.avatar.childImageSharp.fluid} alt="Avatar" className="img" />
-              </a>
+            </a>
           </div>
         </StyledPic>
       </div>

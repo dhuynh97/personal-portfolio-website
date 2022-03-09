@@ -33,7 +33,7 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 500px;
+    max-width: 570px;
     font-size: var(--fz-xxl);
   }
   x {
@@ -54,6 +54,23 @@ const StyledHeroSection = styled.section`
     }
   }
 
+  blue {
+    font-size: var(--fz-xxl);
+    color: #4285f4;
+  }
+  red {
+    font-size: var(--fz-xxl);
+    color: #db4437;
+  }
+  yellow {
+    font-size: var(--fz-xxl);
+    color: #f4b400;
+  }
+  green {
+    font-size: var(--fz-xxl);
+    color: #0f9d58;
+  }
+
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 40px;
@@ -71,20 +88,24 @@ const Hero = () => {
   }, []);
 
   const one = <h1></h1>;
-  const two = (
-    <h2 className="big-heading">
-      {' '}
-      Hi there, <h2>s</h2>I'm Daniel Huynh.
-    </h2>
-  );
-  const three = <h3 className="medium-heading">I'm Daniel Huynh.</h3>;
+  const two = <h2 className="big-heading"> Hey there, my name is</h2>;
+  const three = <h3 className="big-heading">Daniel Huynh.</h3>;
   const four = (
     <p>
-      I'm an undergrad with a background in Business and Computer Science from{' '}
-      <a href="https://www.ucsd.edu" target="_blank" rel="noopener noreferrer">
-        UC San Diego‏‏‎‎
+      I'm currently a Technical Solutions Engineer (TSE) at <blue>G</blue>
+      <red>o</red>
+      <yellow>o</yellow>
+      <blue>g</blue>
+      <green>l</green>
+      <red>e</red> on the{' '}
+      <a href="https://www.looker.com" target="_blank" rel="noopener noreferrer">
+        Looker
       </a>{' '}
-      looking to create meaningful solutions to complex problems.{' '}
+      team solving complex issues on Google Cloud Platform. I graduated from{' '}
+      <a href="https://www.ucsd.edu" target="_blank" rel="noopener noreferrer">
+        UC San Diego
+      </a>{' '}
+      with a background in Business/Computer Science and a huge passion for technology.
       <x href="https://www.ucsd.edu">(go tritons! ♆) </x>
     </p>
   );

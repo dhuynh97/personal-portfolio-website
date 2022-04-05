@@ -112,7 +112,7 @@ const StyledSidebar = styled.aside`
     flex-direction: column;
     color: var(--main-black);
     font-family: var(--font-sans);
-    
+
     text-align: center;
   }
 
@@ -261,7 +261,7 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/Daniel_Huynh_Resume_2021.pdf" className="resume-link" target="_blank">
+            <a href="/Daniel_Huynh_Resume_2022.pdf" className="resume-link" target="_blank">
               Resume
             </a>
           </nav>

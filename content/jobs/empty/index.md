@@ -3,7 +3,7 @@ date: '2017-04-01'
 title: 'Studio Developer'
 company: 'Scout'
 location: 'Northeastern University'
-range: 'January - June 2017'
+range: 'January - June 2017 · 6 mos'
 url: 'https://web.northeastern.edu/scout/'
 ---
 

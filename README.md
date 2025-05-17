@@ -12,16 +12,18 @@ Languages and frameworks used:
 ![](demoscroll.gif)
 
 ## Installation
+This project uses [Yarn](https://yarnpkg.com/) for dependency management.
+If you prefer npm, add a `package-lock.json` to keep versions consistent.
 1. Clone the repository.
 2. Install dependencies:
 
 ```bash
-npm install
+yarn install
 ```
 
 ## Local Development
 Start a development server with hot reloading:
 
 ```bash
-npm run develop
+yarn develop
 ```

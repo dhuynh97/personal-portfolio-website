@@ -2,9 +2,9 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Daniel Huynh - Portfolio',
+    title: 'Daniel Huynh – AI/ML & Cloud Consultant',
     description:
-      'Daniel Huynh is a software engineer from San Jose, California and graduated from UC San Diego with a degree in Business and Computer Science.',
+      'Solutions engineer specializing in AI/ML development, Google Cloud architecture, and enterprise consulting on the Google Marketing Platform.',
     siteUrl: 'https://danielhuynh.co', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@danierhuynh',

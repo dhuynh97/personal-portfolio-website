@@ -174,76 +174,24 @@ const Projects = () => {
     <StyledProjectsSection>
       <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
 
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
-      </Link>
+      <p className="work-summary">
+        I design and implement AI/ML solutions, architect data & cloud pipelines on Google Cloud,
+        and advise enterprise teams on Google Marketing Platform integrations.
+        Recent work includes propensity-model pipelines on Vertex AI, real-time signal activation
+        in SA360, and Gen-AI creative tooling.
+        <a href="https://github.com/dhuynh97" target="_blank" rel="noopener">
+          View selected code on GitHub&nbsp;↗
+        </a>
+      </p>
 
-      <TransitionGroup className="projects-grid">
-        {projectsToShow &&
-          projectsToShow.map(({ node }, i) => {
-            const { frontmatter, html } = node;
-            const { github, external, title, tech } = frontmatter;
+      {/** Link to project archive removed */}
 
-            return (
-              <CSSTransition
-                key={i}
-                classNames="fadeup"
-                timeout={i >= GRID_LIMIT ? (i - GRID_LIMIT) * 300 : 300}
-                exit={false}>
-                <StyledProject
-                  key={i}
-                  ref={el => (revealProjects.current[i] = el)}
-                  tabIndex="0"
-                  style={{
-                    transitionDelay: `${i >= GRID_LIMIT ? (i - GRID_LIMIT) * 100 : 0}ms`,
-                  }}>
-                  <div className="project-inner">
-                    <header>
-                      <div className="project-top">
-                        <div className="folder">
-                          <Icon name="Folder" />
-                        </div>
-                        <div className="project-links">
-                          {github && (
-                            <a href={github} aria-label="GitHub Link">
-                              <Icon name="GitHub" />
-                            </a>
-                          )}
-                          {external && (
-                            <a href={external} aria-label="External Link">
-                              <Icon name="External" />
-                            </a>
-                          )}
-                        </div>
-                      </div>
+      {/* Project cards removed per 2025 refresh */}
 
-                      <h3 className="project-title">{title}</h3>
-
-                      <div
-                        className="project-description"
-                        dangerouslySetInnerHTML={{ __html: html }}
-                      />
-                    </header>
-
-                    <footer>
-                      {tech && (
-                        <ul className="project-tech-list">
-                          {tech.map((tech, i) => (
-                            <li key={i}>{tech}</li>
-                          ))}
-                        </ul>
-                      )}
-                    </footer>
-                  </div>
-                </StyledProject>
-              </CSSTransition>
-            );
-          })}
-      </TransitionGroup>
-
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </button>
+      {/**
+       * Show more button retained for archive view in prior versions.
+       * Hidden in 2025 refresh.
+       */}
     </StyledProjectsSection>
   );
 };

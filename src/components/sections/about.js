@@ -189,13 +189,12 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hey there, I'm Daniel. I'm currently a Technical Solutions Engineer (TSE) at Google on
-              the Looker team and I graduated from{' '}
-              <a href="https://www.ucsd.edu" target="_blank" rel="noopener noreferrer">
-                {' '}
-                UC San Diego{' '}
-              </a>{' '}
-              with a background in Business/Computer Science.
+              I’m a <strong>Customer Solutions Engineer at Google</strong> specializing in
+              <strong>AI / ML solution engineering</strong>, <strong>Google Cloud architecture</strong>,
+              and <strong>enterprise consulting</strong> across the Google Marketing Platform.
+              I translate complex business goals into scalable data pipelines,
+              machine-learning workflows, and automation that drive measurable impact
+              for Fortune 500 clients in finance, healthcare, travel, and retail.
             </p>
 
             <p>

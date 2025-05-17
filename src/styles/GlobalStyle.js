@@ -419,6 +419,18 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
 
+  .work-summary {
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    text-align: center;
+  }
+
+  .site-tech {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 1rem;
+  }
+
   ${TransitionStyles};
 
   ${PrismStyles};

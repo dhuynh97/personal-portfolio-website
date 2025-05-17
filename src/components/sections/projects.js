@@ -171,8 +171,8 @@ const Projects = () => {
   const projectsToShow = showMore ? projects : firstSix;
 
   return (
-    <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
+    <StyledProjectsSection id="work">
+      <h2 ref={revealTitle}>What I Work On</h2>
 
       <p className="work-summary">
         I design and implement AI/ML solutions, architect data & cloud pipelines on Google Cloud,

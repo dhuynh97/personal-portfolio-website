@@ -18,6 +18,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "lint": "eslint .",
     "test": "node --test"
   },
   "husky": {

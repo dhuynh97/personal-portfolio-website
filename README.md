@@ -10,3 +10,18 @@ Languages and frameworks used:
 
 ## Demo of Website
 ![](demoscroll.gif)
+
+## Installation
+1. Clone the repository.
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+## Local Development
+Start a development server with hot reloading:
+
+```bash
+npm run develop
+```

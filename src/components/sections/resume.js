@@ -150,7 +150,7 @@ const Resume = () => {
       <h2 className="numbered-heading">Resume</h2>
       <StyledPic>
         <div className="wrapper">
-          <a href="/Daniel_Huynh_Resume_2022.pdf" target="_blank">
+          <a href="/Daniel_Huynh_Resume_2025.pdf" target="_blank">
             <Img fluid={data.avatar.childImageSharp.fluid} alt="Resume" className="img" />
           </a>
         </div>

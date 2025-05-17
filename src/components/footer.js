@@ -109,6 +109,11 @@ const Footer = () => {
           <div>Thanks for stopping by!</div>
         </a>
       </StyledCredit>
+      <p className="site-tech">
+        Built&nbsp;with&nbsp;
+        <a href="https://www.gatsbyjs.com/">Gatsby</a>, hosted&nbsp;on&nbsp;
+        <a href="https://www.netlify.com/">Netlify</a>.
+      </p>
     </StyledFooter>
   );
 };

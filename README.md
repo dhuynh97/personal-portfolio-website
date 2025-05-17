@@ -15,7 +15,7 @@ Languages and frameworks used:
 This project uses [Yarn](https://yarnpkg.com/) for dependency management.
 If you prefer npm, add a `package-lock.json` to keep versions consistent.
 1. Clone the repository.
-2. Install the project's Node version with [nvm](https://github.com/nvm-sh/nvm) and activate it:
+2. This project uses Node 18 pinned in `.nvmrc`. Install it with [nvm](https://github.com/nvm-sh/nvm) and activate it:
 
 ```bash
 nvm install && nvm use
@@ -31,4 +31,11 @@ Start a development server with hot reloading:
 
 ```bash
 yarn develop
+```
+
+## Testing
+Run the test suite with:
+
+```bash
+yarn test
 ```

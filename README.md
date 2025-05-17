@@ -13,7 +13,12 @@ Languages and frameworks used:
 
 ## Installation
 1. Clone the repository.
-2. Install dependencies:
+2. Install the project's Node version with [nvm](https://github.com/nvm-sh/nvm) and activate it:
+
+```bash
+nvm install && nvm use
+```
+3. Install dependencies:
 
 ```bash
 npm install
